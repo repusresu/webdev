@@ -1,0 +1,7 @@
+design goal:
+    prog1.php -> prog2.php -> prog3.js/html
+
+    event is captured by prog1, passed on to prog2 (via http_post) which pushes it db, 
+    prog3 reads from the db, and renders it for display
+
+problem: get the count of unread rows (like unread messages in whatsapp/unread email counts)
